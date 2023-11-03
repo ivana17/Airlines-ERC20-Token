@@ -1,6 +1,6 @@
 # Airlines-ERC20-Token
 
-#### Task - MVPW Airlines
+### Task - Airlines Token
 
 ~ A smart contract for Airplane ticket management. You can develop it in whatever smart contract development framework you want, Remix IDE is the preferable one.
 
@@ -34,9 +34,7 @@ Emit events
 
 Use OpenZeppelin if applicable
 
-
-
-#### Solidity Fall Bootcamp - Learning Materials
+### Learning Materials
 
 Solidity is an Object-Oriented Structural Programming Language for writing smart contracts on EVM-compatible blockchains like Ethereum or Polygon. To compile the Solidity codebase into the EVM bytecode and ABI, one needs to use the Solidity compiler, “solc”, which current major version is ^0.8.
 
