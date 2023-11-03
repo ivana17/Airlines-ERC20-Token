@@ -1,4 +1,4 @@
-# Airlines-ERC20-Token
+# Airlines ERC20 Token
 
 ### Task - Airlines Token
 
