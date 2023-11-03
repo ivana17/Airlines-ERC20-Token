@@ -1,30 +1,8 @@
 # Airlines-ERC20-Token
 
-### Solidity Fall Bootcamp
-
-#### Learning Materials
-
-Solidity is an Object-Oriented Structural Programming Language for writing smart contracts on EVM-compatible blockchains like Ethereum or Polygon. To compile the Solidity codebase into the EVM bytecode and ABI, one needs to use the Solidity compiler, “solc”, which current major version is ^0.8.
-
-There are two types of functions, ones that read data from the blockchain, and ones that mutate the blockchain’s state. The first ones are gas free and have a “view” modifier. The second ones initiate transactions which the initiator needs to pay, and that’s why we tend to optimize our contracts as much as possible.
-
-Programming smart contracts is more like programming hardware than programming software, because once deployed, contracts are immutable. That’s why security is our number one priority.
-
-Official documentation: https://docs.soliditylang.org/en/latest/
-
-Use Check-Effects-Interactions pattern.
-
-Follow NatSpec when documenting your contract.
-
-Follow this contract structure: https://gist.github.com/andrejrakic/2a61faa2157efff1684d212b2c754eb8
-
-Roadmap for learning Solidity: https://solidity-by-example.org/
-
-Try to use the OpenZeppelin library if applicable since it is battle tested and considered an industry standard.
-
 #### Task - MVPW Airlines
 
-Your task is to create a smart contract for Airplane ticket management. You can develop it in whatever smart contract development framework you want, Remix IDE is the preferable one.
+~ A smart contract for Airplane ticket management. You can develop it in whatever smart contract development framework you want, Remix IDE is the preferable one.
 
 This smart contract will need to have admin functionalities. Oftentimes they are managed by multisig wallets. You should be able to create a mechanism where only the admin wallet can execute certain actions. For the ownership transfer, the admin should initiate the transferOwnership function, and the new admin should accept the ownership transfer.
 
@@ -55,3 +33,25 @@ Follow function & variables ordering rules
 Emit events
 
 Use OpenZeppelin if applicable
+
+
+
+#### Solidity Fall Bootcamp - Learning Materials
+
+Solidity is an Object-Oriented Structural Programming Language for writing smart contracts on EVM-compatible blockchains like Ethereum or Polygon. To compile the Solidity codebase into the EVM bytecode and ABI, one needs to use the Solidity compiler, “solc”, which current major version is ^0.8.
+
+There are two types of functions, ones that read data from the blockchain, and ones that mutate the blockchain’s state. The first ones are gas free and have a “view” modifier. The second ones initiate transactions which the initiator needs to pay, and that’s why we tend to optimize our contracts as much as possible.
+
+Programming smart contracts is more like programming hardware than programming software, because once deployed, contracts are immutable. That’s why security is our number one priority.
+
+Official documentation: https://docs.soliditylang.org/en/latest/
+
+Use Check-Effects-Interactions pattern.
+
+Follow NatSpec when documenting your contract.
+
+Follow this contract structure: https://gist.github.com/andrejrakic/2a61faa2157efff1684d212b2c754eb8
+
+Roadmap for learning Solidity: https://solidity-by-example.org/
+
+Try to use the OpenZeppelin library if applicable since it is battle tested and considered an industry standard.
